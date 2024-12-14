@@ -1,0 +1,95 @@
+/* Edit User Container */
+.edit-user-container {
+    max-width: 800px;  /* Increased width */
+    width: 70vw;        /* Makes the form cover 70% of the page width */
+    margin: 50px auto; /* Centers the form horizontally */
+    padding: 30px;     /* Increased padding for better appearance */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 5vw;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #2575fc; /* Matching the theme color */
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    background-color: #2575fc;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4a8fd4;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Optional: Adding a wrapper for the buttons and spacing out the form fields */
+  button + button {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .edit-user-container {
+      width: 90%;  /* For mobile screens, make the form take up more space */
+      padding: 15px;
+      margin: 20px;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    .input-field {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
