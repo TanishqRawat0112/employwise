@@ -42,6 +42,13 @@
 
 ---
 
+#### 🌐 Live Demo
+Check out the deployed project: [Employwise on Vercel](https://employwisedeploy-n0t1144az-tanishqrawat0112s-projects.vercel.app/)
+OR
+Check out the deployed project: [Employwise on Vercel](https://employwisedeploy.vercel.app/)
+
+---
+
 ##  Features
 
 <code>❯ Employee Login system</code><br>
