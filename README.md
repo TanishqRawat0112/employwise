@@ -3,7 +3,7 @@
 </p>
 <p align="center"><h1 align="center">EMPLOYWISE</h1></p>
 <p align="center">
-	<em><code>❯ REPLACE-ME</code></em>
+	<em><code>❯ A Web App for Managing Employee Data</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/TanishqRawat0112/employwise?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -38,13 +38,17 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯ Employwise is a web application designed to manage employee data efficiently. It allows administrators to manage users, view detailed employee lists, and edit user information with ease. Built with React, this app offers a seamless user experience and intuitive UI for managing employee data.</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ Employee Login system</code><br>
+<code>❯ User Registration and Authentication</code><br>
+<code>❯ Pagination for user lists</code><br>
+<code>❯ User editing feature</code><br>
+<code>❯ Responsive Design for all screen sizes</code>
 
 ---
 
@@ -81,11 +85,11 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Defines the dependency tree for the project</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Contains metadata, dependencies, and scripts for the project</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -96,19 +100,19 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/index.css'>index.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Global CSS for the application</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/App.css'>App.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Component-specific styles for the main application view</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/App.js'>App.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Main application component</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/index.js'>index.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Entry point for the React application</code></td>
 			</tr>
 			</table>
 			<details>
@@ -117,19 +121,19 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/components/Login.jsx'>Login.jsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯  Component for handling login functionality</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/components/Pagination.jsx'>Pagination.jsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯  Component for paginated user list</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/components/UsersList.jsx'>UsersList.jsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Component displaying the list of users</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/components/EditUser.jsx'>EditUser.jsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯  Component for editing user details</code></td>
 					</tr>
 					</table>
 					<details>
@@ -138,15 +142,15 @@
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/components/styles/EditUser.css'>EditUser.css</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
+								<td><code>❯ Styles for the EditUser component</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/components/styles/Login.css'>Login.css</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
+								<td><code>❯ Styles for the Login component</code></td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/components/styles/UserList.css'>UserList.css</a></b></td>
-								<td><code>❯ REPLACE-ME</code></td>
+								<td><code>❯ Styles for the UsersList component</code></td>
 							</tr>
 							</table>
 						</blockquote>
@@ -159,7 +163,7 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/src/services/api.js'>api.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Handles API calls for user authentication and data</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -172,15 +176,15 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/public/index.html'>index.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Main HTML file</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/public/manifest.json'>manifest.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Defines the web app manifest</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/TanishqRawat0112/employwise/blob/master/public/robots.txt'>robots.txt</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Defines rules for search engine crawlers</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -194,7 +198,7 @@
 
 Before getting started with employwise, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** CSS
+- **Programming Language:** JavaScript(React)
 - **Package Manager:** Npm
 
 
@@ -220,7 +224,7 @@ Install employwise using one of the following methods:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'INSERT-INSTALL-COMMAND-HERE'
+❯❯ npm install
 ```
 
 
@@ -231,7 +235,7 @@ Run employwise using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'INSERT-RUN-COMMAND-HERE'
+❯ ❯ npm start
 ```
 
 
@@ -240,16 +244,16 @@ Run the test suite using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'INSERT-TEST-COMMAND-HERE'
+❯ npm test
 ```
 
 
 ---
 ##  Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [X] **`Task 1`**: <strike>Implement Login functionality.</strike>
+- [X] **`Task 2`**: <strike>Listing all users.</strike>
+- [X] **`Task 3`**: <strike>Edit, delete and update users.</strike>
 
 ---
 
@@ -296,14 +300,9 @@ Run the test suite using the following command:
 
 ---
 
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
 
 ##  Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+- Special thanks to the React community and open-source contributors.
 
 ---
